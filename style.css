@@ -1,0 +1,209 @@
+*{
+     margin: 0px;
+     padding: 0px;
+}
+#sayfa{
+       width: 1000px;
+       min-width: 850px;
+       margin:auto;
+       border-style:solid;
+       border-color:white;
+       background-color: white;
+}
+#banner{
+    text-align: center;
+    width: 998px;
+    height: 120px;
+    margin: auto;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    background-image: url(picturess/kremsi\ doku.png);
+    background-color:rgb(218, 215, 205);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#banner-baslik{
+        width:80px;
+        max-width: 800px;
+        margin: 50px;
+        margin-top: 20px;
+        font-size: 42px;
+        font-family: "Orbitron",sans-serif;
+        color:#371d05;
+        text-shadow:3px 3px #0a1c4b, -3px -3px #A0B8B1;
+}
+#sosyalmedya{
+      width: 100px;
+      height: 10px;
+      border-style: none;
+      border-color: white;
+      border-width: 1px;
+      float: right;
+      position: relative;
+      top: 20px;
+      right: 10px;
+}
+#anamenu{
+    width: 999px;
+    height: 80px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    background-color: rgb(181,126.220);
+    margin:auto;
+    background-image: url(picturess/arkaplan2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#anamenu ul{
+    list-style-type: none;
+}
+#anamenu ul li{
+     width: 120px;
+     border-style: solid;
+     border-width: 2px;
+     border-radius: 8px;
+     border-color:white;
+     background-color: #edfb9e;
+     float:left;
+     padding: 15px;
+     margin-left: 38px;
+     margin-top: 12px;
+     position:relative;
+     top:2px;
+     text-align: center;
+}
+#anamenu ul a{
+        font-family: "Orbitron", sans-serif;
+        color: white;
+        text-shadow: 2px 2px #080a01, -1px -1px #047ab9;
+        font-size: 19px;
+        font-weight: bolder;
+}
+#anamenu ul a link{
+    color: white;
+}
+#anamenu ul a:visited{
+    color:white;
+}
+#anamenu ul a:hover{
+    color: rgb(34.9,58);
+}
+#anamenu ul a:active{
+    color:rgb(6, 6, 37);
+}
+
+#icerik{
+       width: 698px;
+       min-height: 598px;
+       border-style: solid;
+       border-color: white;
+       border-width: 1px;
+       background-color: rgb(204,204,255);
+       float: left;
+       background-image: url(picturess/kremsi\ doku.png);
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+}
+#yanmenu{
+    width: 298px;
+    min-height: 598px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    background-color: rgb(189,186,221);
+    float: left;
+    background-image: url(picturess/kremsi\ doku.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.yanmenu-icerik{
+      position: relative;
+      margin-top: -5px;
+      color: #000000;
+      text-shadow: -1px -1px white;
+      border-style: double;
+      font-size: 25px;
+      font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: bolder;
+}
+#altmenu{
+    width: 998px;
+    min-height:44px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    background-color: rgb(190, 188, 216);
+    float: left;
+    text-align: center;
+    color: black;
+    background-image:url(picturess/pppp.png) ;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#altmenu a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+#altmenu a:hover{
+    color: rgb(29,75,75);
+}
+#ana-div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* İki sütunlu bir düzen */
+    gap: 20px; /* Kutular arasındaki boşluk */
+    padding: 20px;
+    justify-items: center; /* Kutuları ortalar */
+}
+
+.div-hakkimizda {
+    position: relative;
+    width: 200px; /* Sabit genişlik */
+    height: 200px; /* Sabit yükseklik */
+    background-color: #f4f4f4; /* Kutular için arkaplan rengi */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.div-hakkimizda a {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+#hakkimizda-icerik{
+    width: 996px;
+    min-height: 598px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    background-image: url(picturess/kremsi\ doku.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+.div-hakkimizda{
+    float: left;
+    position: relative;
+    margin-left: 16px;
+    margin-top: 20px;
+    position:relative;
+    margin-top: 200px;
+}
+
